@@ -188,7 +188,340 @@ a{
     font-size: 2.5rem;
     color: white;
     text-align: left;
+}body{
+    margin: 0;
 }
+h3,h4{
+    font-family: 'Radley', serif;
+}
+
+p{
+    font-family: 'Carlito', sans-serif;
+    color: #191919;
+}
+
+.container-fluid{
+    padding: 7% 10%;
+}
+
+
+
+
+/* -----------------Title Section----------------------- */
+
+#title{
+    background-color: #F4F1E8;
+    text-align: center;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 10%;
+}
+
+.title-img{
+    max-width: 4.6rem;
+}
+
+.title-text{
+    font-family: 'Radley', serif;
+    font-size: 5.2rem;
+    margin: 18% 0 3.3%;
+}
+.inner-text{
+    color: #9B4819;
+}
+
+.title-para{
+    font-family: 'Carlito', sans-serif;
+    color: #191919;
+    width: 90%;
+    margin: 0 auto 15% auto;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.hire-me-text{
+    font-family: 'Radley', serif;
+    font-size: 1.2rem;
+    color: #9B4819;
+    margin-bottom: 0;
+}
+
+
+/* About me Section */
+
+#about-me{
+    background-color: #F4EEE0;
+}
+
+.image-col{
+    text-align: center;
+}
+
+.about-me-img{  
+    max-width: 70%;
+}
+
+.about-me-text{
+    font-family: 'Radley', serif;
+    font-size: 3rem;
+    color: #9B4819;
+    margin-bottom: 10px;
+}
+
+.about-me-para{
+    font-family: 'Carlito', sans-serif;
+    color: #191919;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: 10%;
+    text-align: left;
+}
+
+/* Education */
+
+#education{
+    background-color: #F4F1E8;
+    padding-top: 0%;
+}
+
+.features-img{
+    color: #9B4819;
+    margin: 30px;
+}
+
+#education h1{
+    font-family: 'Radley', serif;
+    font-size: 3rem;
+    color: #9B4819;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+hr{
+    color: #BD8F53;
+    border: 0.5px solid;
+    opacity: 1;
+}
+
+/* Projects */
+#project-gallery .container-fluid{
+padding: 5% 10%;
+}
+
+#project-gallery{
+    background-color: #F4EEE0;
+}
+
+#project-gallery h3{
+    font-family: 'Radley', serif;
+    font-size: 3rem;
+    color: #9B4819;
+    text-align: center;
+}
+#project-gallery h4{
+    color: black;
+}
+
+.project-para{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    margin-bottom: 3%;
+}
+
+
+.project-img{
+    max-width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+}
+
+.lang-logo{
+    margin-right: 10px ;
+    color: #393646;
+}
+
+.projects-box{
+    padding: 1.5rem;
+}
+
+.link-logo1{
+    position: absolute;
+    right: 15px;
+}
+
+.link-logo2{
+    position: absolute;
+    right: 60px;
+}
+
+
+a{
+    color: #393646;
+
+}
+
+
+/* Footer */
+
+#footer{
+    background-color: #9B4819;
+}
+
+#footer hr{
+    margin: 2rem 0;
+}
+
+#footer .container-fluid{
+    padding: 7% 10% 1%;
+}
+
+#footer h3{
+    font-size: 2.5rem;
+    color: white;
+    text-align: left;
+}
+
+.footer-text{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.footer-icon{
+    /* margin-top: 2%; */
+    margin-right: 20px;
+    color: white;
+}
+
+.copyright-text{
+    text-align: right;
+    color: wheat;
+    margin-top: 6%;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+
+
+/* ---------------Media QUeries------------------------ */
+
+@media (max-width: 990px){
+    .container-fluid{
+        padding: 3% 5% 4%;
+    }
+    #title .container-fluid{
+        padding: 3% 0% 4%; 
+    }
+    .title-text{
+        font-size: 8rem;
+    }
+    .title-img{
+        max-width: 8rem;
+    }
+    .title-para{
+        font-size: 2.5rem;
+    }
+    .hire-me-text{
+        font-size: 2.5rem;
+    }
+    #title{
+        border-bottom: 2px solid #9B4819;
+    }
+    .about-me-text{
+        font-size: 6rem;
+        color: #9B4819;
+        text-align: center;
+        margin-top: 2%;
+    }
+    .about-me-para{
+        margin-top: 0;
+        font-size: 2.5rem;
+        padding: 5%;
+        text-align: center;
+    }
+    .about-me-img{
+        max-width: 90%;
+        /* margin-top: 5%; */
+    }
+    .image-col{
+        /* margin-top: 5%; */
+        text-align: center;
+    }
+    #about-me{
+        border-bottom: 2px solid #9B4819;
+    }
+    #education{
+        border-bottom: 2px solid #9B4819;
+    }
+    #education h1{
+        font-size: 5rem;
+      
+        margin-bottom: 50px;
+    }
+    .fa-4x{
+        font-size: 8rem;
+    }
+    h3{
+        font-size: 3.5rem;
+    }
+    p{
+        font-size: 2.5rem;
+    }
+
+    #project-gallery .container-fluid{
+        padding: 3% 5% 4%;
+    }
+    
+    #project-gallery h3{
+        font-size: 5rem;
+    }
+    #project-gallery h4{
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .project-para{
+        font-size: 2.5rem;
+    }
+
+    .project-img{
+        max-width: 100%;
+        margin-bottom: 1rem;
+        margin-top: 4rem;
+    }
+    
+    .lang-logo{
+        margin-right: 10px ;
+        color: #393646;
+        font-size: 4rem;
+        margin-top: 10px;
+    }
+
+    .link-logo1{
+        position: absolute;
+        right: 15px;
+        font-size: 4rem;
+        margin-top: 10px;
+    }
+    
+    .link-logo2{
+        position: absolute;
+        right: 100px;
+        font-size: 4rem;
+        margin-top: 10px;
+    }
+
+    #project-gallery p{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+}
+
+
 
 .footer-text{
     font-size: 1.2rem;
