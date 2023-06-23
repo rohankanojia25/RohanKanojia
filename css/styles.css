@@ -445,6 +445,7 @@ a{
     .about-me-img{
         max-width: 90%;
         /* margin-top: 5%; */
+        margin-left: 0;
     }
     .image-col{
         /* margin-top: 5%; */
